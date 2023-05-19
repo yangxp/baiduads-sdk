@@ -29,7 +29,7 @@ sh build.sh
   <version>${version}</version>
 </dependency>
 ```
-最新版本![Maven](https://img.shields.io/maven-central/v/com.baidu.dev2/baiduads-sdk.svg)
+<font color=red>备注：请在Maven仓库上找最新的版本。</font>
 
 
 ## 使用方式
@@ -102,12 +102,13 @@ public class AccountServiceTest {
 
 ### API 示例
 
-| Class                 | Method                                                                                     | HTTP request                                                  | Description |
-|-----------------------|--------------------------------------------------------------------------------------------|---------------------------------------------------------------|-------------|
-| *CampaignFeedService* | [**addCampaignFeed**](baiduads-sdk-auto/docs/CampaignFeedService.md#addcampaignfeed)       | **POST** /json/feed/v1/CampaignFeedService/addCampaignFeed    |             |
-| *CampaignFeedService* | [**deleteCampaignFeed**](baiduads-sdk-auto/docs/CampaignFeedService.md#deletecampaignfeed) | **POST** /json/feed/v1/CampaignFeedService/deleteCampaignFeed |             |
-| *CampaignFeedService* | [**getCampaignFeed**](baiduads-sdk-auto/docs/CampaignFeedService.md#getcampaignfeed)       | **POST** /json/feed/v1/CampaignFeedService/getCampaignFeed    |             |
-| *CampaignFeedService* | [**updateCampaignFeed**](baiduads-sdk-auto/docs/CampaignFeedService.md#updatecampaignfeed) | **POST** /json/feed/v1/CampaignFeedService/updateCampaignFeed |             |
+Class | Method | HTTP request | Description
+------------ | ------------- | ------------- | -------------
+*CampaignFeedService* | [**addCampaignFeed**](docs/CampaignFeedService.md#addCampaignFeed) | **POST** /json/feed/v1/CampaignFeedService/addCampaignFeed |
+*CampaignFeedService* | [**deleteCampaignFeed**](docs/CampaignFeedService.md#deleteCampaignFeed) | **POST** /json/feed/v1/CampaignFeedService/deleteCampaignFeed |
+*CampaignFeedService* | [**getCampaignFeed**](docs/CampaignFeedService.md#getCampaignFeed) | **POST** /json/feed/v1/CampaignFeedService/getCampaignFeed |
+*CampaignFeedService* | [**updateCampaignFeed**](docs/CampaignFeedService.md#updateCampaignFeed) | **POST** /json/feed/v1/CampaignFeedService/updateCampaignFeed |
+
 
 ## 讨论
 百度如流讨论群：5995216
